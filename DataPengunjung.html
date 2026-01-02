@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Pengunjung</title>
+	
+	<style>
+	
+	.card {
+		width: 150px;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		overflow: hidden;
+		text-align: center;
+		
+	}
+	
+	.card:hover{
+		background-color: grey;
+		color: white;
+	}
+	
+	.card-img {
+		width: 100%;
+		height: 100px;
+		object-fit: cover;
+	}
+	
+	.card-btn {
+		background-color: #007bff;
+		color: white;
+		border: none;
+		padding: 10px 15px;
+		border-radius: 5px;
+		cursor: pointer;
+		margin: 10px 0 15px;
+	}
+	.card-title{
+		font-size: 10px;
+		margin: 10px 0 5px;
+	}
+	
+	.card-subtitle{
+		font-size: 10px;
+		color: 555;
+		padding: 0 10px;
+	}
+	.navbar {
+			position: flex;
+			width: 100%;
+			color: white;
+			background-color: #000000;
+			height: 60px;
+			display: flex;
+			top: 0;
+			box-sizing: border-box;
+			z-index: 1000;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+		.nav-links {
+			list-style: none;
+			display: flex;
+			gap: 25px;
+			margin-right: 10px;
+		}
+		
+		.nav-links li a {
+			color:	#ffffff;
+			text-decoration: none;
+			font-size: 20px;
+			transition:0.3s;
+			background-color: #f0f0f0;
+			color: black;
+			padding: 10px 20px;
+			border-radius: 5px;
+		}
+		
+		.nav-links li a:hover {
+		background-color: white;
+		transition: .5s ease-in-out;
+		transition-delay: .2s;
+		border-radius: 10px;
+		color: blue;
+		}
+		
+		.logo {
+			color: white;
+			text-shadow: 0 0 7px #fff;
+			font-size: 30px;
+			margin-left: 30px;
+			background-color: blue;
+			border-radius: 40%;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+
+<body>
+
+<center>
+<h3>Daftar Kunjungan</h3>
+</center>
+	<div class="card">
+		<img src="img/Wikrama.png" class="card-img">
+		<h4 class="card-title">Ikram Abdul Hafizh</h4>
+		<p class="card-subtitle">Nama saya ikram abdul hafizh</p>
+		<button class="card-btn">
+		Kembali Profil
+		</button>
+		
+	</div>
+	<div class="card">
+		<img src="img/Wikrama.png" class="card-img">
+		<h4 class="card-title">Ikram Abdul Hafizh</h4>
+		<p class="card-subtitle">Nama saya ikram abdul hafizh</p>
+		<button class="card-btn">
+		Kembali Profil
+		</button>
+		
+	</div>
+</body>
+
+</html>
